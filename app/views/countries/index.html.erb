@@ -1,0 +1,7 @@
+<% @countries.each do |country| %>
+  <%= country.name %> has a population of <%= team.founded %>
+  <%= link_to("Show #{country.name}", country_path(team) ) %>
+  <%= button_to('Destroy Country', country_path(team), method: :delete, data: {confirm: 'Destroy them? Are you sure?'}) %>
+  <%= link_to('Edit Country', edit_country_path(team)) %>
+  <br>
+<% end %>
