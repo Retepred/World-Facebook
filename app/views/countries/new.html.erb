@@ -6,7 +6,7 @@
   <%= f.text_field :flag_image %>
   <br>
   <%= f.label :population %>
-  <%= f.integer_field :population %>
+  <%= f.text_field :population %>
   <br>
   <%= f.label :size %>
   <%= f.text_field :size %>
@@ -15,7 +15,7 @@
   <%= f.text_field :language %>
   <br>
   <%= f.label :drinking_age %>
-  <%= f.text_field :drinking_age %>
+  <%= f.number_field :drinking_age %>
   <br>
   <%= f.submit 'Spawn Country!' %>
 <% end %>

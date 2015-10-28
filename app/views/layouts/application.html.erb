@@ -10,5 +10,12 @@
 
 <%= yield %>
 
+<nav>
+  <ul>
+  <li> <%= link_to('Countries', countries_path) %> </li>
+  <li> <%= link_to('New Country', new_country_path) %> </li>
+  </ul>
+</nav>
+
 </body>
 </html>
