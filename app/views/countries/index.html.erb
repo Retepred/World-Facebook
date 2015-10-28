@@ -1,10 +1,12 @@
+<div class="menu_show">
 <% @countries.each do |country| %>
-  <%= country.name %> has a population of <%= country.population %>
 
-  <a href="#" style="text-decoration:none !important; text-decoration:none;"><%= link_to("Show #{country.name}", country_path(country) ) %></a>
+  <%= link_to("Show #{country.name}", country_path(country) )%>
 
   <%= button_to('Destroy Country', country_path(country), method: :delete, data: {confirm: 'Destroy them? Are you sure?'}) %>
 
-  <a href="#" style="text-decoration:none !important; text-decoration:none;"><%= link_to('Edit Country', edit_country_path(country)) %></a>
+  <%= link_to('Edit Country', edit_country_path(country)) %>
+  <br>
   <br>
 <% end %>
+</div>

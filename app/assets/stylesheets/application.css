@@ -26,3 +26,51 @@
      font-size: 20px;
      font-weight: bold;
  }
+
+ .navbar {
+     height: 100px;
+     width: 40%;
+     background-color: white;
+     opacity: 0.8;
+     margin-bottom: 100px;
+     position: relative;
+     margin-left: 400px;
+     text-decoration: none;
+     text-align: center;
+ }
+
+ .menu {
+     height: 100px;
+     width: 40%;
+     background-color: white;
+     opacity: 0.8;
+     margin-bottom: 100px;
+     position: relative;
+     margin-left: 400px;
+     text-decoration: none;
+     text-align: center;
+ }
+
+ .show {
+    height: 400px;
+    width: 40%;
+    background-color: white;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 400px;
+    text-decoration: none;
+    text-align: center;
+ }
+
+ .menu_show {
+    height: 400px;
+    width: 40%;
+    background-color: white;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 400px;
+    text-decoration: none;
+    text-align: center;
+ }

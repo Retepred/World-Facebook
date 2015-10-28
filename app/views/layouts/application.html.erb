@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>WorldFacebook</title>
+  <title>Peter Corp - Arms Dealer</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
-
-<nav>
-  <ul>
-  <li> <%= link_to('Countries', countries_path) %> </li>
-  <li> <%= link_to('New Country', new_country_path) %> </li>
-  </ul>
-</nav>
-
+  <%= yield %>
+  <div class="menu">
+  <nav>
+    <ul>
+      <li> <%= link_to('Home', root_path) %> </li>
+      <li> <%= link_to('Client Countries', countries_path) %> </li>
+      <li> <%= link_to('Add New Client Country', new_country_path) %> </li>
+    </ul>
+  </nav>
+</div>
 </body>
 </html>

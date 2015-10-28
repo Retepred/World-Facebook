@@ -1,6 +1,5 @@
-<h1><%= @country.name %></h1>
-<p> <%= @country.name %> has a population of: <%= @country.population %></p>
-<p> It has a size of: <%= @country.size %></p>
-<p> It has a drinking age of: <%= @country.drinking_age %></p>
-<p> It has a first language of: <%= @country.population %></p>
-<%= image_tag(@country.flag_image, alt: 'alt text is really required', width:200) %>
+<div class="show">
+  <h1><%= @country.name %></h1>
+  <p> It has a size of <%= @country.size %>, a drinking age of <%= @country.drinking_age %> and a population of <%= @country.population %>. It speaks <%= @country.language %>. Their monthly spending is <%= @country.monthlyspending %>.</p>
+  <%= image_tag(@country.flag_image, alt: 'please post a working image link..', width:200) %>
+</div>
